@@ -1,10 +1,10 @@
-java -jar swagger-codegen-cli-2.2.3.jar generate \
-  -i swagger_smartmind.json \
-  --api-package logic.smartmind.client.api \
-  --model-package logic.smartmind.client.model \
-  --invoker-package logic.smartmind.client.invoker \
-  --group-id logic.smartmind \
-  --artifact-id logic-smartmind \
+java -jar swagger-codegen-cli-3.0.25.jar generate \
+  -i swagger.json \
+  --api-package client.api \
+  --model-package client.model \
+  --invoker-package client.invoker \
+  --group-id com.exemplo \
+  --artifact-id exemplo-codegen \
   --artifact-version 0.0.1-SNAPSHOT \
   -l java \
   --library resttemplate \
